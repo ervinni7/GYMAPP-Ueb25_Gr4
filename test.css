@@ -46,3 +46,56 @@ body {
   font-weight: 450;
   margin: 0 0 6px;
 }
+.pako-buton {
+  text-align: center;
+ display: block;
+  width: 80%;
+  padding: 10px 0;
+  margin: 8px auto;
+  border: none;
+  border-radius: 10px; 
+  background: #000;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.pako-buton:hover {
+  background-color: orange;
+}
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  padding: 32px 20px;
+  background: #fff;
+  color: #000;
+}
+
+.footer-col h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col li {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+.footer-logo {
+  width: 150px;
+  max-width: 100%;
+  display: block;
+}
+
+.footer-hours {
+  margin:6px;
+  font-size: 14px;
+}
